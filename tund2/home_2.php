@@ -34,13 +34,13 @@
   }
   
   else if($semesterend < $today) {
-	  $fromsemesterstartdays = ". Semester on juba lÃµppenud";
+	  $fromsemesterstartdays = ". Semester on juba lõppenud";
 	  $customText = $fromsemesterstartdays;
   }
   
   else
   {
-	  $customText = ", semestri algusest on mÃ¶Ã¶dunud " .$fromsemesterstartdays ." pÃ¤eva";
+	  $customText = ", semestri algusest on möödunud " .$fromsemesterstartdays ." päeva";
   }
   
   //semestri %
